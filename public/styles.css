@@ -1,0 +1,22 @@
+.smart-suggest-dropdown {
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-size: 13px;
+  padding: 4px 0;
+  display: none;
+}
+
+.smart-suggest-item {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.smart-suggest-item:hover,
+.smart-suggest-item.focused {
+  cursor: pointer;
+  background: #f2f6fa;
+}
